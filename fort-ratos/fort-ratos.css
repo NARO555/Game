@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #32a8a2;
+    padding: 10px 20px;
+    color: white;
+}
+
+.logo img {
+    height: 80px;
+}
+
+.nav-links ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.search input {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.search button {
+    background-color: #1d7e78;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#imgTitulo{
+    margin-right: 300px;
+}
+
+.content {
+    flex: 1; /* Permite que o conteúdo ocupe o espaço restante */
+    max-width: 800px;
+    margin: 50px auto; /* Centralizar o conteúdo na página */
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.content img {
+    display: block; /* Certificar-se de que a imagem é exibida como bloco */
+    margin: 0 auto; /* Centralizar horizontalmente a imagem */
+}
+
+.content h1 {
+    margin-top: 20px; /* Adicionar espaçamento acima do título */
+}
+
+
+/* Estilos para as características */
+.caracteristicas {
+    list-style-type: disc; /* Usar marcadores em formato de círculo */
+    padding-left: 20px; /* Adicionar um recuo para os marcadores */
+}
+
+.caracteristicas li {
+    margin-bottom: 10px; /* Adicionar espaçamento entre as características */
+    }
+
+    /* Estilos para o botão "Ver na Amazon" */
+#myButton1 {
+    background-color: #32a8a2;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Efeito de hover para o botão */
+#myButton1:hover {
+    background-color: #2b908a; /* Uma tonalidade ligeiramente mais escura para o efeito de hover */
+}
+
+
+#myButton2 {
+    background-color: #32a8a2;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+#myButton2:hover {
+    background-color: #2b908a; 
+}
+
+
+#myButton3 {
+    background-color: #32a8a2;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+#myButton3:hover {
+    background-color: #2b908a; 
+}
+
+#myButton4 {
+    background-color: #32a8a2;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+#myButton4:hover {
+    background-color: #2b908a; 
+}
+
+#myButton5 {
+    background-color: #32a8a2;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+#myButton5:hover {
+    background-color: #2b908a; 
+}

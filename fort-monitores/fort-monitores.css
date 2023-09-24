@@ -1,0 +1,252 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  
+}
+
+/* .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #32a8a2;
+    padding: 10px 20px;
+    color: white;
+}
+
+.logo img {
+    height: 80px;
+}
+
+.nav-links ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.search input {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.search button {
+    background-color: #1d7e78;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+} */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #32a8a2;
+    padding: 10px 20px;
+    color: white;
+    transition: background-color 0.3s ease; /* Efeito de transição suave para a cor de fundo */
+}
+
+.logo {
+    display: flex; /* Alinhar o logotipo e o link */
+    align-items: center;
+}
+
+.logo img {
+    height: 80px;
+    margin-right: 10px; /* Espaço entre o logotipo e o menu */
+}
+
+.nav-links ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0; /* Remover margem padrão da lista */
+    padding: 0; /* Remover preenchimento padrão da lista */
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease; /* Efeito de transição suave para a cor do texto */
+}
+
+.nav-links a:hover {
+    color: #2b908a; /* Cor diferente ao passar o mouse */
+}
+
+.search {
+    display: flex; /* Alinhar a barra de pesquisa e o botão */
+    align-items: center;
+}
+
+.search input {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 5px; /* Espaço entre o campo de pesquisa e o botão */
+}
+
+.search button {
+    background-color: #1d7e78;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Efeito de transição suave para a cor de fundo do botão */
+}
+
+.search button:hover {
+    background-color: #2b908a; /* Cor diferente ao passar o mouse */
+}
+
+
+
+/* acaba */
+.centered-content {
+    text-align: center; /* Centraliza o conteúdo horizontalmente */
+}
+
+.centered-content h1 {
+    max-width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.centered-content img {
+    display: block; /* Remove margens indesejadas */
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+
+
+.content {
+    flex: 1; /* Permite que o conteúdo ocupe o espaço restante */
+    max-width: 800px;
+    margin: 100px auto; /* Centralizar o conteúdo na página */
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.content p:first-child {
+    margin-top: -56px; /* Ajuste o valor conforme necessário */
+}
+
+/* Estilos para as características */
+.caracteristicas {
+    list-style-type: disc; /* Usar marcadores em formato de círculo */
+    padding-left: 20px; /* Adicionar um recuo para os marcadores */
+}
+
+.caracteristicas li {
+    margin-bottom: 10px; /* Adicionar espaçamento entre as características */
+}
+
+
+#myButton1 {
+    background-color: #32a8a2;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Efeito de hover para o botão */
+#myButton1:hover {
+    background-color: #2b908a; /* Uma tonalidade ligeiramente mais escura para o efeito de hover */
+}
+
+#myButton2 {
+    background-color: #32a8a2;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Efeito de hover para o botão */
+#myButton2:hover {
+    background-color: #2b908a; /* Uma tonalidade ligeiramente mais escura para o efeito de hover */
+}
+
+#myButton3 {
+    background-color: #32a8a2;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Efeito de hover para o botão */
+#myButton3:hover {
+    background-color: #2b908a; /* Uma tonalidade ligeiramente mais escura para o efeito de hover */
+}
+
+#myButton4 {
+    background-color: #32a8a2;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Efeito de hover para o botão */
+#myButton4:hover {
+    background-color: #2b908a; /* Uma tonalidade ligeiramente mais escura para o efeito de hover */
+}
+
+#myButton5 {
+    background-color: #32a8a2;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Efeito de hover para o botão */
+#myButton5:hover {
+    background-color: #2b908a; /* Uma tonalidade ligeiramente mais escura para o efeito de hover */
+}
+
+
+
+.footer {
+    text-align: center;
+    background-color: #f9f9f9; /* cor de fundo */
+    padding: 10px; /* espaçamento interno */
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 12px;
+}
